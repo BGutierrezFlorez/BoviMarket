@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using Newtonsoft.Json.Linq;
 
-namespace CowShop.Controllers
+namespace BoviMarket.Controllers
 {
     public class PagoController : ApiController
     {

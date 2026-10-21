@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Data;
 using System.Linq;
 using System.Web;
-namespace CowShop
+namespace BoviMarket
 {
     public class ConexionBD
     {

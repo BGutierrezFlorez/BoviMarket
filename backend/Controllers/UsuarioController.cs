@@ -1,11 +1,11 @@
-﻿using CowShop.Data;
-using CowShop.Helpers;
-using CowShop.Models;
+using BoviMarket.Data;
+using BoviMarket.Helpers;
+using BoviMarket.Models;
 using System.Collections.Generic;
 using System.Net;
 using System.Web.Http;
 
-namespace CowShop.Controllers
+namespace BoviMarket.Controllers
 {
     public class UsuarioController : ApiController
     {

@@ -17,7 +17,7 @@ function App() {
         <nav className="navbar-container">
 
           <a href="/" className="brand">
-            <img src={logoImg} alt="CowShop" />
+            <img src={logoImg} alt="BoviMarket" />
           </a>
 
           <ul className="nav-links">
@@ -89,7 +89,7 @@ function App() {
               <h1>
                 Bienvenido a{' '}
                 <span>
-                  CowShop
+                  BoviMarket
                 </span>
               </h1>
 
@@ -136,7 +136,7 @@ function App() {
           <div className="container">
 
             <h2>
-              ¿Por qué elegir CowShop?
+              ¿Por qué elegir BoviMarket?
             </h2>
 
             <div className="features-grid">
@@ -358,7 +358,7 @@ function App() {
 
           <div>
             <h4>
-              CowShop
+              BoviMarket
             </h4>
 
             <p>
@@ -440,7 +440,7 @@ function App() {
         </div>
 
         <p className="copyright">
-          © 2026 CowShop. Todos los derechos reservados.
+          © 2026 BoviMarket. Todos los derechos reservados.
         </p>
 
       </footer>
@@ -450,4 +450,3 @@ function App() {
 }
 
 export default App
-

@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Net;
 using System.Web.Http;
 using System.Web.Http.Cors;
-using CowShop.Data;
-using CowShop.Models;
+using BoviMarket.Data;
+using BoviMarket.Models;
 
-namespace CowShop.Controllers
+namespace BoviMarket.Controllers
 {
     [EnableCors(origins: "http://127.0.0.1:5503,http://localhost:5000",
                 headers: "*", methods: "GET,POST,PUT,DELETE,OPTIONS")]

@@ -4,7 +4,7 @@ using JWT.Exceptions;
 using JWT.Serializers;
 using System.Collections.Generic;
 
-namespace CowShop.Helpers
+namespace BoviMarket.Helpers
 {
     public class AuthHelper
     {

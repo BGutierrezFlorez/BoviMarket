@@ -1,12 +1,12 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Web.Http;
-using CowShop.Data;
-using CowShop.Helpers;
-using CowShop.Models;
+using BoviMarket.Data;
+using BoviMarket.Helpers;
+using BoviMarket.Models;
 
-namespace CowShop.Controllers
+namespace BoviMarket.Controllers
 {
     public class VacaController : ApiController
     {

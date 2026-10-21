@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="CowShop.WebApiApplication" Language="C#" %>
+<%@ Application Codebehind="Global.asax.cs" Inherits="BoviMarket.WebApiApplication" Language="C#" %>

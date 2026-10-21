@@ -4,7 +4,7 @@ using JWT.Serializers;
 using System;
 using System.Collections.Generic;
 
-namespace CowShop.Helpers
+namespace BoviMarket.Helpers
 {
     public class JwtHelper
     {
@@ -19,7 +19,7 @@ namespace CowShop.Helpers
                 { "exp", DateTimeOffset.UtcNow.AddHours(2).ToUnixTimeSeconds() }
             };
 
-            IJwtAlgorithm algorithm = new HMACSHA256Algorithm(); // Algoritmo de encriptación
+            IJwtAlgorithm algorithm = new HMACSHA256Algorithm(); // Algoritmo de encriptaciï¿½n
             IJsonSerializer serializer = new JsonNetSerializer();
             IBase64UrlEncoder urlEncoder = new JwtBase64UrlEncoder();
             IJwtEncoder encoder = new JwtEncoder(algorithm, serializer, urlEncoder);

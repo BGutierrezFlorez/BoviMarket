@@ -1,12 +1,12 @@
-using CowShop.Data;
-using CowShop.Models;
+using BoviMarket.Data;
+using BoviMarket.Models;
 using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace CowShop.Controllers
+namespace BoviMarket.Controllers
 {
     [RoutePrefix("api/rol")]
     public class RolController : ApiController

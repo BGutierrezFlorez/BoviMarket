@@ -1,10 +1,10 @@
-﻿using CowShop.Models;
+using BoviMarket.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace CowShop.Data
+namespace BoviMarket.Data
 {
     public class RolData
     {

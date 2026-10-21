@@ -4,10 +4,10 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using CowShop.Models;
-using CowShop.Data;
+using BoviMarket.Models;
+using BoviMarket.Data;
 
-namespace CowShop.Controllers
+namespace BoviMarket.Controllers
 {
     public class VentaController : ApiController
     {
@@ -27,7 +27,7 @@ namespace CowShop.Controllers
         {
             var venta = VentaData.ObtenerVentaPorId(id);
             if (venta == null)
-                return Content(HttpStatusCode.NotFound, "No se encontró la venta con el ID " + id);
+                return Content(HttpStatusCode.NotFound, "No se encontrï¿½ la venta con el ID " + id);
 
             return Ok(venta);
         }
@@ -39,7 +39,7 @@ namespace CowShop.Controllers
         {
             if (request == null || request.VacasDetalle == null || !request.VacasDetalle.Any())
             {
-                return BadRequest("La información de la venta es inválida.");
+                return BadRequest("La informaciï¿½n de la venta es invï¿½lida.");
             }
 
             try

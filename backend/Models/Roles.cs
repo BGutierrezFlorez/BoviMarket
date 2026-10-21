@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace CowShop.Models
+namespace BoviMarket.Models
 {
     [Table("Roles")] // Nombre de la tabla en la base de datos
     public class Rol

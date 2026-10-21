@@ -1,8 +1,8 @@
-﻿// CowShop/App_Start/WebApiConfig.cs
+// BoviMarket/App_Start/WebApiConfig.cs
 using System.Web.Http;
 using System.Web.Http.Cors;
 
-namespace CowShop
+namespace BoviMarket
 {
     public static class WebApiConfig
     {
@@ -10,7 +10,7 @@ namespace CowShop
         {
             // 🔓 CORS (Cross-Origin Resource Sharing)
             // Permite llamadas desde cualquier origen mientras estás en desarrollo.
-            // ⚠️ En producción, reemplaza "*" por tus dominios permitidos, ej. "https://cowshop.com"
+            // En producción, reemplaza "*" por el dominio oficial de BoviMarket.
             var cors = new EnableCorsAttribute(
                 origins: "*",
                 headers: "*",

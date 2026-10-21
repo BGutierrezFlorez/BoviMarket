@@ -1,14 +1,14 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
-using CowShop.Models;
+using BoviMarket.Models;
 using Newtonsoft.Json;
 
-namespace CowShop.Data
+namespace BoviMarket.Data
 {
     public class VentaData
     {

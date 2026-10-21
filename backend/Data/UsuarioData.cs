@@ -1,11 +1,11 @@
-﻿using BCrypt.Net;
+using BCrypt.Net;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using CowShop.Models;
+using BoviMarket.Models;
 
-namespace CowShop.Data
+namespace BoviMarket.Data
 {
     public class UsuarioData
     {
